@@ -5,7 +5,7 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage
 import gradio as gr
 import os
 
-llm = ChatOpenAI(temperature=1.0, model='gpt-3.5-turbo-0613', openai_api_key="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")
+llm = ChatOpenAI(temperature=1.0, model='gpt-3.5-turbo-0613', openai_api_key="")
 
 def response(message, history, additional_input_info):
         history_langchain_format = []
